@@ -1,0 +1,47 @@
+{
+  "valid_users": [
+    {
+      "username": "student",
+      "password": "Password123",
+      "email": "student@test.com",
+      "role": "student"
+    }
+  ],
+  "invalid_credentials": [
+    {
+      "username": "incorrectUser",
+      "password": "Password123",
+      "expected_error": "Your username is invalid!"
+    },
+    {
+      "username": "student",
+      "password": "incorrectPassword",
+      "expected_error": "Your password is invalid!"
+    },
+    {
+      "username": "",
+      "password": "Password123",
+      "expected_error": "Your username is invalid!"
+    },
+    {
+      "username": "student",
+      "password": "",
+      "expected_error": "Your password is invalid!"
+    }
+  ],
+  "test_scenarios": {
+    "boundary_testing": {
+      "max_length_username": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "max_length_password": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "special_characters": "!@#$%^&*()_+-=[]{}|;:,.<>?"
+    },
+    "sql_injection": {
+      "username": "admin'; DROP TABLE users; --",
+      "password": "password"
+    },
+    "xss_testing": {
+      "username": "<script>alert('XSS')</script>",
+      "password": "password"
+    }
+  }
+}

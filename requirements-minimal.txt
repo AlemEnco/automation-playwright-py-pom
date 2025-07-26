@@ -1,0 +1,15 @@
+# Minimal requirements for Python 3.13 compatibility
+# Use this if you encounter build issues with the main requirements.txt
+
+# Core testing framework
+pytest>=7.4.0
+
+# Playwright (install separately to avoid greenlet build issues)
+# Run: pip install playwright --only-binary=all
+# Then: playwright install
+
+# Basic utilities
+python-dotenv>=1.0.0
+
+# Note: Install playwright separately with:
+# pip install playwright --only-binary=all --force-reinstall

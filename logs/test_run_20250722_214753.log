@@ -1,0 +1,165 @@
+2025-07-22 21:47:55,077 - tests.conftest - INFO - Starting test: test_valid_login_success[chromium]
+2025-07-22 21:47:55,077 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:47:55,078 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:47:57,041 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:47:57,041 - LoginPage - INFO - Performing login with username: student
+2025-07-22 21:47:57,041 - LoginPage - INFO - Entering username: student
+2025-07-22 21:47:57,045 - LoginPage - INFO - Filling text 'student' into element: #username
+2025-07-22 21:47:58,058 - LoginPage - INFO - Entering password
+2025-07-22 21:47:58,064 - LoginPage - INFO - Filling text 'Password123' into element: #password
+2025-07-22 21:47:59,120 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:47:59,130 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:48:00,048 - DashboardPage - INFO - Login success indicators: [{'indicator': 'URL contains success pattern', 'expected': 'logged-in-successfully', 'actual': 'https://practicetestautomation.com/logged-in-successfully/', 'passed': True}, {'indicator': 'Page heading indicates success', 'expected': 'Logged In Successfully', 'actual': 'Logged In Successfully', 'passed': True}, {'indicator': 'Success message is displayed', 'expected': 'Logged In Successfully', 'actual': 'Logged In Successfully', 'passed': True}]
+2025-07-22 21:48:00,055 - tests.conftest - INFO - Completed test: test_valid_login_success[chromium]
+2025-07-22 21:48:00,631 - tests.conftest - INFO - Starting test: test_invalid_login_scenarios[chromium-invalid_cred0]
+2025-07-22 21:48:00,631 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:00,631 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:02,577 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:48:02,577 - LoginPage - INFO - Performing login with username: incorrectUser
+2025-07-22 21:48:02,578 - LoginPage - INFO - Entering username: incorrectUser
+2025-07-22 21:48:02,580 - LoginPage - INFO - Filling text 'incorrectUser' into element: #username
+2025-07-22 21:48:03,593 - LoginPage - INFO - Entering password
+2025-07-22 21:48:03,600 - LoginPage - INFO - Filling text 'Password123' into element: #password
+2025-07-22 21:48:04,647 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:48:04,657 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:48:05,190 - LoginPage - INFO - Error message found: Your username is invalid!
+2025-07-22 21:48:05,191 - tests.conftest - INFO - Completed test: test_invalid_login_scenarios[chromium-invalid_cred0]
+2025-07-22 21:48:05,767 - tests.conftest - INFO - Starting test: test_login_page_elements_visibility[chromium]
+2025-07-22 21:48:05,768 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:05,768 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:07,974 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:48:17,992 - LoginPage - INFO - Page elements verification: {'username_input': True, 'password_input': True, 'submit_button': True, 'login_form': False, 'page_title': False}
+2025-07-22 21:48:18,171 - tests.conftest - ERROR - Test failed. Screenshot saved: reports/screenshots/failure_test_login_page_elements_visibility[chromium]_20250722_214818.png
+2025-07-22 21:48:18,172 - tests.conftest - INFO - Completed test: test_login_page_elements_visibility[chromium]
+2025-07-22 21:48:18,735 - tests.conftest - INFO - Starting test: test_form_field_interactions[chromium]
+2025-07-22 21:48:18,736 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:18,736 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:20,694 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:48:20,694 - LoginPage - INFO - Entering username: testuser
+2025-07-22 21:48:20,696 - LoginPage - INFO - Filling text 'testuser' into element: #username
+2025-07-22 21:48:21,770 - tests.conftest - ERROR - Test failed. Screenshot saved: reports/screenshots/failure_test_form_field_interactions[chromium]_20250722_214821.png
+2025-07-22 21:48:21,770 - tests.conftest - INFO - Completed test: test_form_field_interactions[chromium]
+2025-07-22 21:48:22,351 - tests.conftest - INFO - Starting test: test_error_message_display_and_content[chromium]
+2025-07-22 21:48:22,351 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:22,351 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:24,357 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:48:24,358 - LoginPage - INFO - Performing login with username: invaliduser
+2025-07-22 21:48:24,358 - LoginPage - INFO - Entering username: invaliduser
+2025-07-22 21:48:24,360 - LoginPage - INFO - Filling text 'invaliduser' into element: #username
+2025-07-22 21:48:25,378 - LoginPage - INFO - Entering password
+2025-07-22 21:48:25,387 - LoginPage - INFO - Filling text 'Password123' into element: #password
+2025-07-22 21:48:26,434 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:48:26,443 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:48:26,978 - LoginPage - INFO - Error message found: Your username is invalid!
+2025-07-22 21:48:26,979 - tests.conftest - INFO - Completed test: test_error_message_display_and_content[chromium]
+2025-07-22 21:48:27,553 - tests.conftest - INFO - Starting test: test_multiple_login_attempts[chromium]
+2025-07-22 21:48:27,553 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:27,553 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:29,581 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:48:29,581 - LoginPage - INFO - Performing login with username: wronguser
+2025-07-22 21:48:29,581 - LoginPage - INFO - Entering username: wronguser
+2025-07-22 21:48:29,584 - LoginPage - INFO - Filling text 'wronguser' into element: #username
+2025-07-22 21:48:30,597 - LoginPage - INFO - Entering password
+2025-07-22 21:48:30,600 - LoginPage - INFO - Filling text 'wrongpass' into element: #password
+2025-07-22 21:48:31,645 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:48:31,654 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:48:32,181 - LoginPage - INFO - Clearing login form
+2025-07-22 21:48:32,181 - LoginPage - INFO - Clearing username field
+2025-07-22 21:48:32,690 - LoginPage - INFO - Clearing password field
+2025-07-22 21:48:33,208 - LoginPage - INFO - Performing login with username: student
+2025-07-22 21:48:33,209 - LoginPage - INFO - Entering username: student
+2025-07-22 21:48:33,218 - LoginPage - INFO - Filling text 'student' into element: #username
+2025-07-22 21:48:34,238 - LoginPage - INFO - Entering password
+2025-07-22 21:48:34,247 - LoginPage - INFO - Filling text 'Password123' into element: #password
+2025-07-22 21:48:35,263 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:48:35,269 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:48:36,435 - DashboardPage - INFO - Login success indicators: [{'indicator': 'URL contains success pattern', 'expected': 'logged-in-successfully', 'actual': 'https://practicetestautomation.com/logged-in-successfully/', 'passed': True}, {'indicator': 'Page heading indicates success', 'expected': 'Logged In Successfully', 'actual': 'Logged In Successfully', 'passed': True}, {'indicator': 'Success message is displayed', 'expected': 'Logged In Successfully', 'actual': 'Logged In Successfully', 'passed': True}]
+2025-07-22 21:48:36,436 - tests.conftest - INFO - Completed test: test_multiple_login_attempts[chromium]
+2025-07-22 21:48:37,012 - tests.conftest - INFO - Starting test: test_login_with_special_characters[chromium]
+2025-07-22 21:48:37,012 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:37,012 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:39,048 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:48:39,049 - LoginPage - INFO - Clearing login form
+2025-07-22 21:48:39,049 - LoginPage - INFO - Clearing username field
+2025-07-22 21:48:39,556 - LoginPage - INFO - Clearing password field
+2025-07-22 21:48:40,104 - LoginPage - INFO - Performing login with username: user@domain.com
+2025-07-22 21:48:40,105 - LoginPage - INFO - Entering username: user@domain.com
+2025-07-22 21:48:40,112 - LoginPage - INFO - Filling text 'user@domain.com' into element: #username
+2025-07-22 21:48:41,129 - LoginPage - INFO - Entering password
+2025-07-22 21:48:41,139 - LoginPage - INFO - Filling text 'pass@123' into element: #password
+2025-07-22 21:48:42,154 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:48:42,161 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:48:42,696 - LoginPage - INFO - Clearing login form
+2025-07-22 21:48:42,696 - LoginPage - INFO - Clearing username field
+2025-07-22 21:48:43,205 - LoginPage - INFO - Clearing password field
+2025-07-22 21:48:43,722 - LoginPage - INFO - Performing login with username: user#123
+2025-07-22 21:48:43,723 - LoginPage - INFO - Entering username: user#123
+2025-07-22 21:48:43,728 - LoginPage - INFO - Filling text 'user#123' into element: #username
+2025-07-22 21:48:44,746 - LoginPage - INFO - Entering password
+2025-07-22 21:48:44,752 - LoginPage - INFO - Filling text 'pass$456' into element: #password
+2025-07-22 21:48:45,769 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:48:45,778 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:48:46,309 - LoginPage - INFO - Clearing login form
+2025-07-22 21:48:46,309 - LoginPage - INFO - Clearing username field
+2025-07-22 21:48:46,817 - LoginPage - INFO - Clearing password field
+2025-07-22 21:48:47,330 - LoginPage - INFO - Performing login with username: user with spaces
+2025-07-22 21:48:47,331 - LoginPage - INFO - Entering username: user with spaces
+2025-07-22 21:48:47,339 - LoginPage - INFO - Filling text 'user with spaces' into element: #username
+2025-07-22 21:48:48,354 - LoginPage - INFO - Entering password
+2025-07-22 21:48:48,360 - LoginPage - INFO - Filling text 'pass with spaces' into element: #password
+2025-07-22 21:48:49,377 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:48:49,386 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:48:49,917 - tests.conftest - INFO - Completed test: test_login_with_special_characters[chromium]
+2025-07-22 21:48:50,503 - tests.conftest - INFO - Starting test: test_login_performance[chromium]
+2025-07-22 21:48:50,504 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:50,504 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:52,522 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:48:52,522 - LoginPage - INFO - Performing login with username: student
+2025-07-22 21:48:52,523 - LoginPage - INFO - Entering username: student
+2025-07-22 21:48:52,525 - LoginPage - INFO - Filling text 'student' into element: #username
+2025-07-22 21:48:53,539 - LoginPage - INFO - Entering password
+2025-07-22 21:48:53,549 - LoginPage - INFO - Filling text 'Password123' into element: #password
+2025-07-22 21:48:54,598 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:48:54,607 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:48:55,578 - DashboardPage - INFO - Dashboard page loaded successfully
+2025-07-22 21:48:55,587 - DashboardPage - INFO - Login success indicators: [{'indicator': 'URL contains success pattern', 'expected': 'logged-in-successfully', 'actual': 'https://practicetestautomation.com/logged-in-successfully/', 'passed': True}, {'indicator': 'Page heading indicates success', 'expected': 'Logged In Successfully', 'actual': 'Logged In Successfully', 'passed': True}, {'indicator': 'Success message is displayed', 'expected': 'Logged In Successfully', 'actual': 'Logged In Successfully', 'passed': True}]
+2025-07-22 21:48:55,588 - tests.conftest - INFO - Completed test: test_login_performance[chromium]
+2025-07-22 21:48:56,156 - tests.conftest - INFO - Starting test: test_invalid_login_scenarios[chromium-invalid_cred1]
+2025-07-22 21:48:56,156 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:56,156 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:48:58,096 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:48:58,097 - LoginPage - INFO - Performing login with username: student
+2025-07-22 21:48:58,097 - LoginPage - INFO - Entering username: student
+2025-07-22 21:48:58,099 - LoginPage - INFO - Filling text 'student' into element: #username
+2025-07-22 21:48:59,114 - LoginPage - INFO - Entering password
+2025-07-22 21:48:59,122 - LoginPage - INFO - Filling text 'incorrectPassword' into element: #password
+2025-07-22 21:49:00,174 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:49:00,184 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:49:00,719 - LoginPage - INFO - Error message found: Your password is invalid!
+2025-07-22 21:49:00,720 - tests.conftest - INFO - Completed test: test_invalid_login_scenarios[chromium-invalid_cred1]
+2025-07-22 21:49:01,295 - tests.conftest - INFO - Starting test: test_invalid_login_scenarios[chromium-invalid_cred2]
+2025-07-22 21:49:01,295 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:49:01,295 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:49:03,253 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:49:03,253 - LoginPage - INFO - Performing login with username: 
+2025-07-22 21:49:03,253 - LoginPage - INFO - Entering username: 
+2025-07-22 21:49:03,255 - LoginPage - INFO - Filling text '' into element: #username
+2025-07-22 21:49:04,270 - LoginPage - INFO - Entering password
+2025-07-22 21:49:04,276 - LoginPage - INFO - Filling text 'Password123' into element: #password
+2025-07-22 21:49:05,323 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:49:05,331 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:49:05,869 - LoginPage - INFO - Error message found: Your username is invalid!
+2025-07-22 21:49:05,869 - tests.conftest - INFO - Completed test: test_invalid_login_scenarios[chromium-invalid_cred2]
+2025-07-22 21:49:06,455 - tests.conftest - INFO - Starting test: test_invalid_login_scenarios[chromium-invalid_cred3]
+2025-07-22 21:49:06,456 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:49:06,456 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:49:08,411 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:49:08,411 - LoginPage - INFO - Performing login with username: student
+2025-07-22 21:49:08,411 - LoginPage - INFO - Entering username: student
+2025-07-22 21:49:08,413 - LoginPage - INFO - Filling text 'student' into element: #username
+2025-07-22 21:49:09,428 - LoginPage - INFO - Entering password
+2025-07-22 21:49:09,437 - LoginPage - INFO - Filling text '' into element: #password
+2025-07-22 21:49:10,484 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:49:10,489 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:49:11,038 - LoginPage - INFO - Error message found: Your password is invalid!
+2025-07-22 21:49:11,039 - tests.conftest - INFO - Completed test: test_invalid_login_scenarios[chromium-invalid_cred3]

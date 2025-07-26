@@ -1,0 +1,14 @@
+2025-07-22 21:45:52,489 - tests.conftest - INFO - Starting test: test_valid_login_success[chromium]
+2025-07-22 21:45:52,490 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:45:52,490 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:45:54,510 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:45:54,511 - LoginPage - INFO - Performing login with username: student
+2025-07-22 21:45:54,511 - LoginPage - INFO - Entering username: student
+2025-07-22 21:45:54,515 - LoginPage - INFO - Filling text 'student' into element: #username
+2025-07-22 21:45:55,525 - LoginPage - INFO - Entering password
+2025-07-22 21:45:55,533 - LoginPage - INFO - Filling text 'Password123' into element: #password
+2025-07-22 21:45:56,587 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:45:56,596 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:45:57,494 - DashboardPage - INFO - Login success indicators: [{'indicator': 'URL contains success pattern', 'expected': 'logged-in-successfully', 'actual': 'https://practicetestautomation.com/logged-in-successfully/', 'passed': True}, {'indicator': 'Page heading indicates success', 'expected': 'Logged In Successfully', 'actual': 'Logged In Successfully', 'passed': True}, {'indicator': 'Success message is displayed', 'expected': 'Congratulations', 'actual': 'Logged In Successfully', 'passed': False}]
+2025-07-22 21:45:57,554 - tests.conftest - ERROR - Test failed. Screenshot saved: reports/screenshots/failure_test_valid_login_success[chromium]_20250722_214557.png
+2025-07-22 21:45:57,554 - tests.conftest - INFO - Completed test: test_valid_login_success[chromium]

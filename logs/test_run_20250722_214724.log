@@ -1,0 +1,27 @@
+2025-07-22 21:47:25,789 - tests.conftest - INFO - Starting test: test_valid_login_success[chromium]
+2025-07-22 21:47:25,790 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:47:25,790 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:47:27,755 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:47:27,756 - LoginPage - INFO - Performing login with username: student
+2025-07-22 21:47:27,756 - LoginPage - INFO - Entering username: student
+2025-07-22 21:47:27,760 - LoginPage - INFO - Filling text 'student' into element: #username
+2025-07-22 21:47:28,777 - LoginPage - INFO - Entering password
+2025-07-22 21:47:28,783 - LoginPage - INFO - Filling text 'Password123' into element: #password
+2025-07-22 21:47:29,798 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:47:29,804 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:47:30,710 - DashboardPage - INFO - Login success indicators: [{'indicator': 'URL contains success pattern', 'expected': 'logged-in-successfully', 'actual': 'https://practicetestautomation.com/logged-in-successfully/', 'passed': True}, {'indicator': 'Page heading indicates success', 'expected': 'Logged In Successfully', 'actual': 'Logged In Successfully', 'passed': True}, {'indicator': 'Success message is displayed', 'expected': 'Logged In Successfully', 'actual': 'Logged In Successfully', 'passed': True}]
+2025-07-22 21:47:30,716 - tests.conftest - INFO - Completed test: test_valid_login_success[chromium]
+2025-07-22 21:47:31,305 - tests.conftest - INFO - Starting test: test_dashboard_elements_after_login[chromium]
+2025-07-22 21:47:31,305 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:47:31,305 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:47:33,308 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:47:33,308 - LoginPage - INFO - Performing login with username: student
+2025-07-22 21:47:33,308 - LoginPage - INFO - Entering username: student
+2025-07-22 21:47:33,310 - LoginPage - INFO - Filling text 'student' into element: #username
+2025-07-22 21:47:34,327 - LoginPage - INFO - Entering password
+2025-07-22 21:47:34,335 - LoginPage - INFO - Filling text 'Password123' into element: #password
+2025-07-22 21:47:35,350 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:47:35,356 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:47:36,258 - DashboardPage - INFO - Dashboard page loaded successfully after login
+2025-07-22 21:47:41,269 - DashboardPage - INFO - Dashboard elements verification: {'page_heading': True, 'success_message': True, 'content_area': True, 'logout_button': False}
+2025-07-22 21:47:46,274 - tests.conftest - INFO - Completed test: test_dashboard_elements_after_login[chromium]

@@ -1,0 +1,13 @@
+2025-07-22 21:47:11,139 - tests.conftest - INFO - Starting test: test_valid_login_success[chromium]
+2025-07-22 21:47:11,140 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:47:11,140 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:47:13,237 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:47:13,238 - LoginPage - INFO - Performing login with username: student
+2025-07-22 21:47:13,238 - LoginPage - INFO - Entering username: student
+2025-07-22 21:47:13,242 - LoginPage - INFO - Filling text 'student' into element: #username
+2025-07-22 21:47:14,258 - LoginPage - INFO - Entering password
+2025-07-22 21:47:14,264 - LoginPage - INFO - Filling text 'Password123' into element: #password
+2025-07-22 21:47:15,278 - LoginPage - INFO - Clicking submit button
+2025-07-22 21:47:15,281 - LoginPage - INFO - Clicking element: #submit
+2025-07-22 21:47:16,192 - DashboardPage - INFO - Login success indicators: [{'indicator': 'URL contains success pattern', 'expected': 'logged-in-successfully', 'actual': 'https://practicetestautomation.com/logged-in-successfully/', 'passed': True}, {'indicator': 'Page heading indicates success', 'expected': 'Logged In Successfully', 'actual': 'Logged In Successfully', 'passed': True}, {'indicator': 'Success message is displayed', 'expected': 'Logged In Successfully', 'actual': 'Logged In Successfully', 'passed': True}]
+2025-07-22 21:47:16,199 - tests.conftest - INFO - Completed test: test_valid_login_success[chromium]

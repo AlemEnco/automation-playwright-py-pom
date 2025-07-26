@@ -1,0 +1,12 @@
+2025-07-22 21:50:45,071 - tests.conftest - INFO - Starting test: test_form_field_interactions[chromium]
+2025-07-22 21:50:45,072 - LoginPage - INFO - Navigating to login page: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:50:45,072 - LoginPage - INFO - Navigating to: https://practicetestautomation.com/practice-test-login/
+2025-07-22 21:50:47,046 - LoginPage - INFO - Login page loaded successfully
+2025-07-22 21:50:47,047 - LoginPage - INFO - Entering username: testuser
+2025-07-22 21:50:47,051 - LoginPage - INFO - Filling text 'testuser' into element: #username
+2025-07-22 21:50:48,069 - LoginPage - INFO - Entering password
+2025-07-22 21:50:48,072 - LoginPage - INFO - Filling text 'testpass' into element: #password
+2025-07-22 21:50:49,121 - LoginPage - INFO - Clearing login form
+2025-07-22 21:50:49,121 - LoginPage - INFO - Clearing username field
+2025-07-22 21:50:49,631 - LoginPage - INFO - Clearing password field
+2025-07-22 21:50:50,152 - tests.conftest - INFO - Completed test: test_form_field_interactions[chromium]
